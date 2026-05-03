@@ -17,3 +17,4 @@ p { font-size: 0.8rem; margin-bottom: 5px; color: #666; font-weight: bold; }
 #mute-btn { position: fixed; top: 20px; right: 20px; width: 45px; height: 45px; border-radius: 50%; border: 2px solid #ff9800; background: white; cursor: pointer; z-index: 1000; }
 
 .final-card { text-align: center; padding: 10px; }
+.logo-container { display: flex; justify-content: center; align-items: center;}
