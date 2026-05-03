@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Naruto Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="quiz-container">
+        <header>
+            <div class="logo-container">
+                <img src="image1.png" alt="Logo Naruto" class="logo" style="width: 150px;">
+            </div>
+            <h1>Examen des Chûnins</h1>
+            
+            <div class="status-container">
+                <p>Progression</p>
+                <div class="progress-bar">
+                    <div class="progress" id="progress"></div>
+                </div>
+
+                <p>Temps Akatsuki</p>
+                <div class="timer-bar">
+                    <div class="timer-fill" id="timer-fill"></div>
+                </div>
+            </div>
+        </header>
+
+        <section id="quiz-box">
+            <h2 id="question">Chargement...</h2>
+            <div class="options-container" id="options-container">
+                <button class="option-btn">Option 1</button>
+                <button class="option-btn">Option 2</button>
+                <button class="option-btn">Option 3</button>
+                <button class="option-btn">Option 4</button>
+            </div>
+        </section>
+
+        <footer>
+            <p>Score : <span id="score">0</span> / 10</p>
+            <button id="mute-btn">🔊</button>
+        </footer>
+    </main>
+
+    <audio id="bg-music" loop>
+        <source src="opening4.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
